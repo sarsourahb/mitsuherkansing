@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #e4e4dc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bfcab4;
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'Poor Story', system-ui;
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+    font-family: 'Poor Story', system-ui;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    margin: 2vw auto;
+    max-width: 50%;
+}
+
+main p {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.index-main>article {
+    display: flex;
+    width: 100%;
+}
+
+.index-main>article div {
+    width: 100%;
+}
+
+main>article img {
+    width: 50%;
+    height: 15em;
+    object-fit: cover;
+    padding: 0.7vw;
+}
+
+.active,
+nav ul li a:hover {
+    text-decoration: double;
+    text-decoration-color: #333;
+    font-weight: bold;
+}
+
+.introfotorecepten {
+    width: 70%;
+    margin-left: 7em;
+}
+
+.fotogalerij {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotogalerij img {
+    width: 20%;
+    height: 30%;
+}
+
+.reviews-pagina main {
+    margin: 2vw auto;
+    max-width: 30%;
+}
+
+.reviews-pagina article {
+    display: flex;
+    flex-direction: column;
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+}
+
+.reviews-pagina article img {
+    width: 93%;
+    height: auto;
+    border-bottom: 0.1em solid #ccc;
+}
+
+.reviews-pagina article div {
+    padding: 1.5em;
+}
+
+.reviews-pagina h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #495057;
+}
+
+.reviews-pagina p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #6c757d;
+}
+
+footer {
+    background-color: #bfcab4;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    font-family: 'Poor Story', system-ui;
+}
