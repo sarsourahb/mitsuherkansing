@@ -110,13 +110,13 @@ nav ul li a:hover {
 .reviews-pagina h2 {
     font-size: 1.5em;
     margin-bottom: 1em;
-    color: #495057;
+    color: #333;
 }
 
 .reviews-pagina p {
     line-height: 1.6;
     margin-bottom: 1em;
-    color: #6c757d;
+    color: #333;
 }
 
 footer {
